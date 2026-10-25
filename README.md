@@ -35,7 +35,9 @@ Sirve `dist/` en un alojamiento estático con HTTPS.
 
 Sitio actual: https://cuerda-studio-daniel.open-bream-3251.chatgpt.site
 
-La versión de Sites se publica por separado; los cambios en GitHub no se despliegan automáticamente. Se omite la configuración interna de Sites para que este repositorio sea independiente.
+GitHub Pages está configurado para publicar la raíz de la rama `gh-pages`. Para actualizar la web, copia el contenido de `dist/` a la raíz de esa rama, conserva `.nojekyll` y sube el commit: GitHub ejecutará el despliegue automáticamente. Cambiar `main` por sí solo no actualiza Pages.
+
+La versión de Sites se publica por separado. Se omite su configuración interna para mantener este repositorio independiente.
 
 ## Límites
 
